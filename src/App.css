@@ -1,0 +1,28 @@
+
+.App {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "about about about"
+    "projects projects projects"
+    "contact contact contact";
+    height: 100vh;
+    background-color: red;
+}
+.component{
+    background-color: blue;
+}
+.about {
+    background-color: green;
+    grid-area: about;
+
+}
+.projects {
+    background-color: pink;
+    grid-area: projects;
+}
+.contact{
+    background-color: yellow;
+    grid-area: contact;
+}
